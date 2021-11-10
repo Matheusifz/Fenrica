@@ -1,8 +1,12 @@
 import * as React from "react";
-import { Cloud } from "./styles";
+import { Content, Animation } from "./styles";
 
-const Teste: React.FC = () => {
-  return <Cloud />;
+const Cloud: React.FC = () => {
+  return (
+    <Animation>
+      <Content />
+    </Animation>
+  );
 };
 
-export default Teste;
+export default Cloud;
