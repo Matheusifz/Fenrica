@@ -13,7 +13,7 @@ export const NavItems = styled.h3`
   margin-top: 10px;
   padding: 0;
   font-family: "Lato", sans-serif;
-  color: #72c0aa;
+  color: #45ad96;
   font-weight: 300;
 `;
 

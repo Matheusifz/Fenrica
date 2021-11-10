@@ -1,6 +1,5 @@
 import React from "react";
-import styled from "styled-components";
-import { NavItems, Header } from "./styles";
+import { NavItems, Header, Contact } from "./styles";
 
 interface Navbar {}
 
@@ -9,7 +8,7 @@ const Navbar: React.FC = () => {
     <Header>
       <NavItems>Home</NavItems>
       <NavItems>Services</NavItems>
-      <NavItems>Contact</NavItems>
+      <Contact>Contact</Contact>
     </Header>
   );
 };
