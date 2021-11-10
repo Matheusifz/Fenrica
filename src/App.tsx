@@ -9,7 +9,8 @@ function App() {
       <GlobalStyles />
       <Navbar />
       <FocalPoint />
-      <Cloud />
+      <Cloud margin="120px 20px" />
+      <Cloud margin=" 400px 40px" />
     </div>
   );
 }

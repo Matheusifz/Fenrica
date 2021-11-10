@@ -1,6 +1,6 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 
-export const Content = styled.div`
+export const Content = styled.div<{ margin: string }>`
   width: 350px;
   height: 120px;
 
@@ -16,7 +16,7 @@ export const Content = styled.div`
   -moz-border-radius: 100px;
 
   position: relative;
-  margin: 120px auto 20px;
+  margin: ${(props) => props.margin};
 
   &:before {
     width: 180px;

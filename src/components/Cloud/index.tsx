@@ -1,10 +1,14 @@
 import * as React from "react";
 import { Content, Animation } from "./styles";
 
-const Cloud: React.FC = () => {
+interface CloudProps {
+  margin: string;
+}
+
+const Cloud: React.FC<CloudProps> = ({ margin }) => {
   return (
     <Animation>
-      <Content />
+      <Content margin={margin} />
     </Animation>
   );
 };
