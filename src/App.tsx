@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <FocalPoint />
       <Cloud margin="120px 20px" />
-      <Cloud margin=" 400px 40px" />
+      <Cloud margin="-40px 70vw" />
     </div>
   );
 }
