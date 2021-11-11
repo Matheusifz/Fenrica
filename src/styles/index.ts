@@ -23,6 +23,7 @@ export default createGlobalStyle`
     cursor: pointer;
   }
   html {
-    overflow:hidden
+    overflow:hidden;
   }
+  
 `;
