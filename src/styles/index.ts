@@ -22,4 +22,7 @@ export default createGlobalStyle`
   button, a{
     cursor: pointer;
   }
+  html {
+    overflow:hidden
+  }
 `;
