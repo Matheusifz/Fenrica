@@ -1,20 +1,16 @@
-import Cloud from "./components/Cloud";
-import FocalPoint from "./components/Handwriting";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
 import GlobalStyles from "./styles";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./routes/Home";
 
 function App() {
   return (
     <div className="App">
       <GlobalStyles />
-      <Navbar />
-      <FocalPoint />
-      {/*       <Cloud margin="120px 20px" />
-       */}
-      {/*       <Cloud margin="-40px 70vw" />
-       */}
-      <Hero />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

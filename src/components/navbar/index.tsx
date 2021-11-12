@@ -1,8 +1,6 @@
 import React from "react";
 import { NavItems, Header, Contact } from "./styles";
 
-interface Navbar {}
-
 const Navbar: React.FC = () => {
   return (
     <Header>
